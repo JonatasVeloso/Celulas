@@ -77,19 +77,24 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_inicio) {
+            setTitle("Vida Plena");
             getSupportFragmentManager().beginTransaction().replace(R.id.content,
                     new InicioFragment()).commit();
         } else if (id == R.id.nav_celula) {
+            setTitle("Células");
             getSupportFragmentManager().beginTransaction().replace(R.id.content,
                     new CelulasFragment()).commit();
         } else if (id == R.id.nav_share) {
+            setTitle("Compartilhar");
             Toast.makeText(this,"Compartilhar", Toast.LENGTH_SHORT).show();
             getSupportFragmentManager().beginTransaction().replace(R.id.content,
                     new CompartilharFragment()).commit();
         } else if (id == R.id.nav_contato) {
+            setTitle("Contato");
             getSupportFragmentManager().beginTransaction().replace(R.id.content,
                     new ContatoFragment()).commit();
         } else if (id == R.id.nav_ideia) {
+            setTitle("Ideias");
             getSupportFragmentManager().beginTransaction().replace(R.id.content,
                     new IdeiasFragment()).commit();
         }

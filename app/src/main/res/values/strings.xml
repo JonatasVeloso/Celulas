@@ -7,4 +7,14 @@
     <string name="nav_header_subtitle">e-mail</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="msg_semana">Escolha uma dia da Semana</string>
+    <string-array name="Semana" size="50dp">
+        <item>Domingo</item>
+        <item>Segunda</item>
+        <item>Terça</item>
+        <item>Quarta</item>
+        <item>Quinta</item>
+        <item>Sexta</item>
+        <item>Sábado</item>
+    </string-array>
 </resources>
