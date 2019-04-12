@@ -3,4 +3,5 @@
     <color name="colorPrimary">#795548</color> <!-- Materia 500 -->
     <color name="colorPrimaryDark">#5D4037</color> <!-- Material 700 -->
     <color name="colorAccent">#18FFFF</color>
+    <color name="colorBackground">#A1887F</color> <!-- Materia 300 -->
 </resources>
